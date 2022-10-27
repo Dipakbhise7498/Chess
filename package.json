@@ -1,0 +1,47 @@
+{
+  "name": "react-chessground",
+  "version": "1.5.0",
+  "description": "React wrapper for chessground <https://github.com/ornicar/chessground>",
+  "main": "index.js",
+  "module": "es/index.js",
+  "scripts": {
+    "build": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ruilisi/react-chessground.git"
+  },
+  "keywords": [
+    "chess",
+    "chessboard",
+    "chessground",
+    "react"
+  ],
+  "authors": [
+    "Ruilisi"
+  ],
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/ruilisi/react-chessground/issues"
+  },
+  "homepage": "https://github.com/ruilisi/react-chessground",
+  "dependencies": {
+    "chessground": "^7.6.12"
+  },
+  "peerDependencies": {
+    "prop-types": "^15.7.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.3",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/preset-env": "^7.8.3",
+    "@babel/preset-react": "^7.8.3",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-uglifycss": "^1.1.0",
+    "react-scripts": "^4.0.3"
+  }
+}
